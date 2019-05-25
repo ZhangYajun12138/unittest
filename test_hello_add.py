@@ -12,11 +12,12 @@ class TestHelloAdd(unittest.TestCase):
         self.assertEqual(add(-2,5),3)
         self.assertEqual(add(-0.5,-0.3),-0.8)
 
-    # def setUp(self) -> None:
-    #     print('-----setUp-----')
-    #
-    # def tearDown(self) -> None:
-    #     print('-----tearDown-----')
+    def setUp(self) -> None:
+        print('-----setUp-----')
+
+    def tearDown(self) -> None:
+        print('-----tearDown-----')
+
     @classmethod
     def setUpClass(cls) -> None:
         print('-----setupclass-----')
