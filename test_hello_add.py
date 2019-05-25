@@ -16,7 +16,7 @@ class TestHelloAdd(unittest.TestCase):
         print('-----setUp-----')
 
     def tearDown(self) -> None:
-        print('-----tearDown-----')
+        print('-----tearDown实例方法-----')
 
     @classmethod
     def setUpClass(cls) -> None:
