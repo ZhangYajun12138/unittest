@@ -1,0 +1,54 @@
+test_one_equation (module2.TestModule1) ... ok
+test_two_equation (module2.TestModule1) ... ok
+test_add (test_hello_add.TestHelloAdd) ... ok
+test_say_hello (test_hello_add.TestHelloAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.031s
+
+OK
+test_one_equation (module2.TestModule1) ... ok
+test_two_equation (module2.TestModule1) ... ok
+test_add (test_hello_add.TestHelloAdd) ... ok
+test_say_hello (test_hello_add.TestHelloAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.062s
+
+OK
+test_one_equation (module2.TestModule1) ... ok
+test_two_equation (module2.TestModule1) ... ok
+test_add (test_hello_add.TestHelloAdd) ... ok
+test_say_hello (test_hello_add.TestHelloAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.016s
+
+OK
+test_one_equation (module2.TestModule1) ... ok
+test_two_equation (module2.TestModule1) ... ok
+test_add (test_hello_add.TestHelloAdd) ... skipped '临时跳过'
+test_say_hello (test_hello_add.TestHelloAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.562s
+
+OK (skipped=1)
+test_one_equation (module2.TestModule1) ... ok
+test_two_equation (module2.TestModule1) ... ok
+test_add (test_hello_add.TestHelloAdd) ... skipped '临时跳过'
+test_say_hello (test_hello_add.TestHelloAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.031s
+
+OK (skipped=1)
+test_one_equation (module2.TestModule1) ... ok
+test_two_equation (module2.TestModule1) ... ok
+test_add (test_hello_add.TestHelloAdd) ... skipped '临时跳过'
+test_say_hello (test_hello_add.TestHelloAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK (skipped=1)
