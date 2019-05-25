@@ -25,4 +25,4 @@ class TestHelloAdd(unittest.TestCase):
         print('-----teardownclass-----')
 
 if __name__ =='__main__':
-    unittest.main(verbosity=2)
+    unittest.main()
