@@ -98,18 +98,29 @@
 # """)
 
 # 习题10
-print("I am 6'2\" tall.")
-print('I am 6\'2" tall.')
-tabby_cat = "\tI'm tabbed in."
-persian_cat = "I'm split\non a line."
-backslash_cat = "I'm \\ a \\ cat."
-fat_cat = '''
-I'll do a list:
-\t* Cat food
-\t* Fishies
-\t* Catnip\n\t* Grass
-'''
-print(tabby_cat)
-print(persian_cat)
-print(backslash_cat)
-print(fat_cat)
+# print("I am 6'2\" tall.")
+# print('I am 6\'2" tall.')
+# tabby_cat = "\tI'm tabbed in."
+# persian_cat = "I'm split\non a line."
+# backslash_cat = "I'm \\ a \\ cat."
+# fat_cat = '''
+# I'll do a list:
+# \t* Cat food
+# \t* Fishies
+# \t* Catnip\n\t* Grass
+# '''
+# print(tabby_cat)
+# print(persian_cat)
+# print(backslash_cat)
+# print(fat_cat)
+
+#习题11
+# print("How old are you? ",end='')
+age = input("How old are you? ")
+# print("How tall are you? ",end='')
+height = input("How tall are you? ")
+# print("How much do you weight? ",end='')
+weight = input("How much do you weight? ")
+print("So,you're %r old,%r tall and %r heavy." %(age,height,weight))
+
+#习题13 参数、解包、变量
