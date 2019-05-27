@@ -15,7 +15,7 @@ input("?")
 print("Opening the file...")
 target = open(filename,"w")
 print("Truncating the file. Goodbye.")
-target.truncate()
+target.truncate() # 清空内容
 print("Now I'm going to ask you for three lines.")
 line1 = input("line1:")
 line2 = input("line2:")
